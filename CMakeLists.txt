@@ -5,5 +5,5 @@
 cmake_minimum_required(VERSION 3.5)
 
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
-add_compile_definitions(SECRETS)
+# add_compile_definitions(SECRETS) uncomment once `secrets.h` has been generated
 project(Swipper)

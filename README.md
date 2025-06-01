@@ -9,10 +9,23 @@ an esp32.
 * Make a copy as `secrets.h` and add values for you wifi AP
 
 ## Building & Flashing
-* Utilize the ESP-IDF extension with your favorite editor.
+### Pull in IDF environment and setup esp32 usb serial device
+* source $IDF_PATH/export.sh
+* ESP32_SER=/dev/<esp32-usb-serial-device> (e.g. - ttyUSB0, ttyUSB1)
+## Configure (Optional)
+* idf.py menuconfig
+## Build
+* idf.py build
+## Flash
+* idf.py -p $ESP32_SER flash
+## Monitor
+* idf.py -p $ESP32_SER monitor
+## All
+* idf.py -p $ESP32_SER flash monitor
 
 ## Demo
 coming soon...
+![demo](media/output.gif)
 
 ## Schematics
 coming soon...

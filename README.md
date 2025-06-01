@@ -24,7 +24,6 @@ an esp32.
 * idf.py -p $ESP32_SER flash monitor
 
 ## Demo
-coming soon...
 ![demo](media/output.gif)
 
 ## Schematics

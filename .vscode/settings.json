@@ -1,0 +1,16 @@
+{
+    "idf.pythonInstallPath": "/usr/bin/python3",
+    "idf.espIdfPath": "/home/ksantana/.esp",
+    "files.associations": {
+        "esp32c2_defs.h": "c",
+        "esp_mac.h": "c",
+        "sdkconfig.h": "c",
+        "esp_err.h": "c",
+        "stdint.h": "c",
+        "esp_wifi.h": "c",
+        "serial.h": "c",
+        "wifi.h": "c"
+    },
+    "idf.port": "/dev/ttyUSB0",
+    "idf.flashType": "UART"
+}
